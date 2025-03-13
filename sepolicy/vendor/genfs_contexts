@@ -101,4 +101,5 @@ genfscon sysfs /devices/virtual/power_supply/bbc/wakeup u:object_r:sysfs_wakeup:
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup u:object_r:sysfs_wakeup:s0
 
 # USB
+genfscon sysfs /devices/platform/soc/11211000.usb1/udc/11211000.usb1/state u:object_r:sysfs_udc:s0
 genfscon sysfs /devices/platform/soc/soc:rt-pd-manager/typec/port0 u:object_r:sysfs_usb_nonplat:s0
